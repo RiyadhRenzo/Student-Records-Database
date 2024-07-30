@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.login-container {
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 8vh;
+}
+    .form-element {
+        width: 100%;
+}
+
+.form-element label {
+    display: block;
+    font-size: 22px;
+    margin-top: 1rem;
+}
+
+.form-element input[type="text"],
+.form-element input[type="text"]{
+    font-size: 22px;
+    width: 100%;
+    padding: 12px;
+    border:1px solid #ccc;
+    border-radius: 4px;
+    color: #888888;
+}
+
+.login-container button{
+    width: 100%;
+    letter-spacing: 6px;
+    border-radius: 4px;
+    margin-top: 2rem;
+    font-size: 32px;
+    padding: 1rem;
+    background-color: rgb(2, 110, 165);
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.login-container button:hover{
+    background-color: rgb(37, 163, 226);
+}
+.login-container{
+    background-color: white;
+    border: 1px solid grey;
+    height: auto;
+    padding: 2rem;
+    box-shadow: 5px 6px 18px grey;
+}
+
+.form-logo{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#formlogin {
+    background-image: repeating-linear-gradient(45deg, rgba(0,0,0,0.05) 0px, rgba(0,0,0,0.05) 2px,transparent 2px, transparent 4px),linear-gradient(0deg, rgb(70, 143, 234),rgb(187, 235, 205));
+}
+
+/* LOGIN MESSAGE START */
+.message{
+    width: 100%;
+    padding: 1rem;
+
+}
+
+.message.warning{
+background: #df0d0d;
+border-left: 6px solid #ce0909;
+color: #7a0c06;
+}
+
+.message.success{
+background: lightgreen;
+border-left: 6px solid darkgreen;
+color: green;
+}
+
+.message.info{
+    background: rgb(12, 116, 151);
+    border-left: 6px solid darkblue;
+color: rgb(255, 255, 255);
+}
+
+/* LOGIN MESSAGE END */
+body{
+    font-family: "Arial";
+}
+
+.wrapper{
+padding: 0 2rem 0 2rem;
+}
+
+h1{
+    text-align: center;
+    margin-top: 2rem; 
+}
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td{
+    text-align: left;
+    padding : 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+/* SEARCH START */
+.search-container{
+    width: 30%;
+    padding-bottom: 1rem;
+}
+.search-input{
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid rgb(45, 42, 42);
+    float: left;
+    width: 80%;
+    background: white;
+}
+.search-button{
+float: left;
+width: 20%;
+padding: 10px;
+background: rgb(2, 110, 165);
+color: white;
+font-size: 17px;
+border: 1px;
+border-left: none;
+cursor: pointer;
+letter-spacing: 2px;
+
+}
+.search-button:hover{
+    background: darkblue;
+}
+/* SEARCH END */
+
+/* ALL OTHER BUTTONS */
+.button-container{
+    margin: 0;
+    float: right;
+    padding:  1rem 0 2rem 0;
+}
+.button-container a{
+    float: left;
+    border: 1px solid rgb(2, 94, 139);
+    background: rgb(2, 110, 165);
+    padding: 8px 10px 8px 10px;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+.button-container a:hover{
+    background: darkblue;
+}
+.button-small{
+    border: none;
+    background: rgb(2, 110, 165);
+    color: white;
+    text-decoration: none;
+    padding: 3px 5px 3px 5px;
+    font-size: 12px;
+}
+.button-danger{
+    float: left;
+    background: rgb(187, 13, 13);
+    padding: 8px 10px 13px 10px;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+    border: none;
+}
+.button-danger:hover{
+    background: rgb(114, 2, 2);
+}
+.button-small:hover{
+    background: darkblue;
+}
+/* END OF HOME BUTTONS */
+.form-container{
+     margin: 0px;
+     padding-top: 2rem;
+}
+.form-container input,
+.form-container select
+{
+    display: block;
+    font-size: 22px;
+    width: 100%;
+    padding: 12px;
+    border:1px solid #ccc;
+    border-radius: 4px;
+    color: #888888;
+}
+.form-container label{
+    font-size: 22px;
+}
+.form-container input[type="submit"]{
+    width: 100%;
+    letter-spacing: 6px;
+    border-radius: 4px;
+    margin-top: 2rem;
+    font-size: 32px;
+    padding: 1rem;
+    background-color: rgb(2, 110, 165);
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin: 12px 0;
+}
